@@ -2,30 +2,22 @@
 
 This repository contains Jupyter notebooks exploring quantum computing concepts using IBM's Qiskit framework.
 
+## How is it different from the IBM coursework available on YoutTube:
+
+Recreated the tutorial from scratch adding informations and comments along the way which I found difficult to interpret as a Chemistry student curious to learn an apply quantum computing for DFT.
+
+Hope this helps you too!
+
 ## Notebooks
 
 ### 1. `ep2_Installation.ipynb`
 - Qiskit installation and setup
 - Environment configuration
-- Basic imports and verification
 
 ### 2. `ep3_Not_So_HelloWorld.ipynb`  
-- Bell state creation and analysis
-- Pauli operator expectation values
-- 100-qubit GHZ state experiment
-- Quantum decoherence demonstration
-- Error mitigation techniques (M3, Dynamical Decoupling)
-- Real quantum hardware execution
+- Spoiler Alert: We do everything BUT print "Hello World".
+- IBM orignal notebook just assumes you know most of the stuff and skips to the setup
 
-## Key Concepts Covered
-
-- **Quantum Circuits**: Creating and manipulating quantum circuits
-- **Bell States**: Entangled two-qubit states
-- **GHZ States**: Multi-qubit entangled states (up to 100 qubits)
-- **Pauli Operators**: Z, X, Y operators and their expectation values
-- **Quantum Decoherence**: How noise affects quantum states
-- **Error Mitigation**: Techniques to improve results on noisy quantum hardware
-- **Transpilation**: Circuit optimization for real quantum processors
 
 ## Requirements
 
